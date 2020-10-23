@@ -9,9 +9,12 @@ import SwiftUI
 
 struct Photo: View {
     var body: some View {
-		Image("1")
-			.resizable()
-			.scaledToFit()
+		VStack{
+			Image("1")
+				.resizable()
+				.scaledToFit()
+			Spacer()
+		}
     }
 }
 
