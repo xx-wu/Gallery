@@ -20,6 +20,7 @@
 		C31E561B252EFFBD005FC128 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E561A252EFFBD005FC128 /* Photo.swift */; };
 		C31E561E252F2E0D005FC128 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E561D252F2E0D005FC128 /* Location.swift */; };
 		C31E5621252F2E33005FC128 /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E5620252F2E33005FC128 /* Likes.swift */; };
+		C3231C0A25A7170200503C71 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = C3231C0925A7170200503C71 /* launch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		C31E561A252EFFBD005FC128 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		C31E561D252F2E0D005FC128 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		C31E5620252F2E33005FC128 /* Likes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Likes.swift; sourceTree = "<group>"; };
+		C3231C0925A7170200503C71 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C31E55F0252ECDCF005FC128 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				C3231C0925A7170200503C71 /* launch.png */,
 				C31430D02532D757007FF655 /* Utils */,
 				C31E5607252ED643005FC128 /* Screens */,
 				C31E55F1252ECDD0005FC128 /* AppDelegate.swift */,
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31E5618252EDA73005FC128 /* Photos.xcassets in Resources */,
+				C3231C0A25A7170200503C71 /* launch.png in Resources */,
 				C31E55FE252ECDD1005FC128 /* LaunchScreen.storyboard in Resources */,
 				C31E55FB252ECDD1005FC128 /* Preview Assets.xcassets in Resources */,
 				C31E55F8252ECDD1005FC128 /* Assets.xcassets in Resources */,

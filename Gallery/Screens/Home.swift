@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Home: View {
 	let imageWidth = UIScreen.main.bounds.width * 0.95
-	let req = List()
+//	let req = List()
 	
 	var body: some View {
 		NavigationView {
@@ -75,7 +75,7 @@ struct Home: View {
 
 func List() -> String {
 	let req = Request(URL: "http://www.google.com", Method: "GET", Params: "")
-	req.DO()
+//	req.DO()
 	print("request...")
 	print(req)
 	
